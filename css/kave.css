@@ -1,0 +1,149 @@
+body{
+    background-color: darkkhaki;
+}
+
+#container{
+    width: 990px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 10px gray;
+}
+
+#menubar{
+    height: 50px;
+    background-color: brown;
+}
+
+#header{
+    height: 280px;
+    background-image: url('../img/header.jpg');
+    background-size: 100%;
+    background-position: center center;
+    line-height: 280px;
+    text-align: center;
+    font-size: 300%;
+    color: white;
+    text-shadow: 0 0 2px black;
+}
+
+#content{
+    width: 100%;
+}
+
+#footer{
+    background-color: SaddleBrown;
+    height: 35px;
+    text-align: center;
+    letter-spacing: 3px;
+    color: white;
+    line-height: 35px;
+    font-size: 80%;
+    clear: both;
+}
+
+#box1{
+    width: 580px;
+    float: left;
+    min-height: 300px;
+    line-height: 200%;
+    padding: 5px;
+}
+
+#box2{
+    width: 190px;
+    background-color: Linen;
+    float: left;
+    min-height: 300px;
+    line-height: 200%;
+    padding: 5px;
+}
+
+#box3{
+    width: 190px;
+    background-color: Bisque;
+    float: left;
+    min-height: 300px;
+    line-height: 200%;
+    padding: 5px;
+}
+
+.menu{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.menu li{
+    display: inline-block;
+    width: 190px;
+    text-align: center;
+    border-right: 1px solid black;
+}
+
+.menu li:last-child{
+    border-right: none;
+}
+
+.menu li a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    text-shadow: 0 0 2px black;
+    line-height: 50px;
+}
+
+.menu li a:hover{
+    background-color: Maroon ;
+
+}
+
+p{
+    text-align: justify;
+    line-height: 200%;
+}
+
+
+.tabla{
+    border-collapse: collapse;
+    border: 2px solid black;
+    width: 100%;
+}
+
+.tabla thead tr th{
+    background-color: brown;
+    color: white;
+}
+
+
+.tabla tbody td{
+    border-bottom: 1px solid silver ;
+}
+
+.tabla tbody tr:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+
+.tabla tfoot td{
+    background-color: sienna;
+    text-align: center;
+}
+
+.r{
+    text-align: right;
+}
+
+em{
+    color: red;
+}
+
+
+
+textarea{
+    width: 100%;
+    min-height: 300px;
+}
+
+input{
+    width: 100%;
+}
